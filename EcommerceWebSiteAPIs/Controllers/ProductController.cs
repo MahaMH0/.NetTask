@@ -71,7 +71,7 @@ namespace EcommerceWebSiteAPIs.Controllers
         }
 
         [HttpPut("{id:int}")]
-        [Authorize("Admin")]
+        //[Authorize("Admin")]
         public IActionResult Edit(int id, Product product)
         {
             if (ModelState.IsValid)
