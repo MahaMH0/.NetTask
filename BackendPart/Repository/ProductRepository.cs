@@ -1,7 +1,5 @@
 ﻿using BackendPart.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace BackendPart.Repository
 {

@@ -59,10 +59,6 @@ namespace BackendPart
                 optios.UseSqlServer(builder.Configuration.GetConnectionString("CS"));
             });
 
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<EcommerceWebSiteEntities>()
-                .AddDefaultTokenProviders();
-
 
             builder.Services.AddAuthentication(options => {
                 options.DefaultAuthenticateScheme =
